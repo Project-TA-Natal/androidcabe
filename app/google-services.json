@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565915910505",
+    "project_id": "cabai-93521",
+    "storage_bucket": "cabai-93521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565915910505:android:9454fb12d6f04ff0a57df8",
+        "android_client_info": {
+          "package_name": "com.example.androidcabe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565915910505-5s5vbnaok8iked3s6badarfi9f8kbtcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidcabe",
+            "certificate_hash": "874728e2f92e8534253151df3f20bbaf5ac2198e"
+          }
+        },
+        {
+          "client_id": "565915910505-190disp18pspem1d9qqrs25563f4r5es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUigYmVecX33ABnjiWCv9bH08NUpDEMkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565915910505-190disp18pspem1d9qqrs25563f4r5es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
