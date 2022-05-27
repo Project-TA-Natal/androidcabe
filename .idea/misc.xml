@@ -23,6 +23,13 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_statistic.xml" value="0.175" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4158653369848281" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.3952537647192029" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.21808328658435783" />
+        <entry key="app/src/main/res/layout/cardview_splash.xml" value="0.47394561767578136" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26485190134728664" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.32563405797101447" />
       </map>
     </option>
   </component>

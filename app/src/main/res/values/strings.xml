@@ -21,4 +21,8 @@
     <string name="tanah">TODO</string>
     <string name="bg_homedashboard">bg_homedashboard</string>
     <string name="ic_suhu">ic_suhu</string>
+    <string name="smart_garden">Smart Garden</string>
+    <string name="image_cabe">Ini gambar cabai</string>
+    <string name="greeting_head">Take care of your plants</string>
+    <string name="greeting_description">Take a deep dive into your plants and what best helps them grow</string>
 </resources>

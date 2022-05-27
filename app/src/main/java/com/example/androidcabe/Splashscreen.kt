@@ -1,25 +1,23 @@
 package com.example.androidcabe
 
-import android.R.id.home
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.postDelayed
 
-
+@SuppressLint("CustomSplashScreen")
 class Splashscreen : AppCompatActivity() {
-    private val waktu_loading = 8000
-    //4000=4 detik
+    private val times = 5000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
-        Handler().postDelayed({//Setelah loading maka akan langsung berpindah ke halaman login// }
-        val Login= Intent(this@Splashscreen, Login::class.java)
-        startActivity(Login)
-        finish()
-    }, waktu_loading.toLong())
-}
+        Handler().postDelayed({
+            val toLogin = Intent(this@Splashscreen, Login::class.java)
+            startActivity(toLogin)
+            finish()
+        }, times.toLong())
+    }
 }
 
