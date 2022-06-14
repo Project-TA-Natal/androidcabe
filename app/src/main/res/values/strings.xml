@@ -12,20 +12,13 @@
     <string name="Register">Register</string>
     <string name="todo">TODO</string>
     <string name="welcome_to_smart_monitoring">Welcome To Smart Monitoring</string>
-    <string name="kelembaban_tanah">Kelembaban Tanah : (70%)</string>
+    <string name="ph_tanah">pH Tanah :</string>
+    <string name="kelembaban_tanah">Kelembaban Tanah : (%)</string>
+    <string name="penggunaan_air_ml">Penggunaan Air : (mL)</string>
     <string name="suhu">TODO</string>
     <string name="ph">TODO</string>
-    <string name="suhu_c">Suhu : (27°C)</string>
+    <string name="suhu_c">Suhu : (°C)</string>
     <string name="tanah">TODO</string>
     <string name="bg_homedashboard">bg_homedashboard</string>
     <string name="ic_suhu">ic_suhu</string>
-    <string name="smart_garden">Smart Garden</string>
-    <string name="image_cabe">Ini gambar cabai</string>
-    <string name="greeting_head">Take care of your plants</string>
-    <string name="greeting_description">Take a deep dive into your plants and what best helps them grow</string>
-    <string name="menu_home">Home</string>
-    <string name="menu_statistic">Statistic</string>
-    <string name="menu_notification">Notification</string>
-    <string name="menu_setting">Setting</string>
-    <string name="deskripsi_pesan">Ini adalah Notifikasi</string>
 </resources>

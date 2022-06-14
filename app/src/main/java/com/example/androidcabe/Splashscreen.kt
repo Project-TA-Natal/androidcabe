@@ -9,8 +9,8 @@ import androidx.core.os.postDelayed
 
 
 class Splashscreen : AppCompatActivity() {
-    private val waktu_loading = 5000
-    //5000=5 detik
+    private val waktu_loading = 8000
+    //4000=4 detik
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
