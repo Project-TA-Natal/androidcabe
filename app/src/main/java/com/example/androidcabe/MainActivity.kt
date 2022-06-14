@@ -1,53 +1,53 @@
 package com.example.androidcabe
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.androidcabe.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import fragments.HomeFragment
+import fragments.NotificationFragment
+import fragments.SettingFragment
+import fragments.StatisticFragment
 
 class MainActivity : AppCompatActivity() {
 
+    private val homeFragment            = HomeFragment()
+    private val statisticFragment       = StatisticFragment()
+    private val notificationFragment    = NotificationFragment()
+    private val settingFragment         = SettingFragment()
     private lateinit var binding: ActivityMainBinding
+
+    private var layoutManager: RecyclerView.LayoutManager? = null
+    private var adapter :RecyclerView.Adapter<RecyclerView.ViewHolder>? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //isi fragment//
-        val fragment = HomeFragment.newInstance(param1 = "testi1", param2 = "testi2")
-        binding.bottomNavigationView.setOnNavigationItemSelectedListener(menuItemSelected)
-        addFragment(fragment)
-    }
-    //Deteksi Menu Item yang DiKlik//
-    private val menuItemSelected = BottomNavigationView.OnNavigationItemSelectedListener { item ->
-        when (item.itemId) {
-            R.id.itemSetting-> {
-             val fragment = SettingFragment.newInstance(param1 = "test1", param2 = "test2")
-                addFragment(fragment)
-                return@OnNavigationItemSelectedListener true
+
+        replaceFragment(homeFragment)
+
+        binding.bottomNavigation.setOnNavigationItemSelectedListener { item ->
+            when(item.itemId) {
+                R.id.itemHome -> replaceFragment(homeFragment)
+                R.id.itemStatistic -> replaceFragment(statisticFragment)
+                R.id.itemNotification -> replaceFragment(notificationFragment)
+                R.id.itemSetting -> replaceFragment(settingFragment)
             }
-            R.id.itemSetting-> {
-                val fragment = NotificationFragment.newInstance(param1 = "test1", param2 = "test2")
-                addFragment(fragment)
-                return@OnNavigationItemSelectedListener true
-            }
-            R.id.itemSetting-> {
-                val fragment = StatisticFragment.newInstance(param1 = "test1", param2 = "test2")
-                addFragment(fragment)
-                return@OnNavigationItemSelectedListener true
-            }
+            true
         }
-        false
     }
 
-    //Memanggil Fragment ke frame layout di activity main//
-    private fun addFragment(fragment: Fragment) {
-        supportFragmentManager
-            .beginTransaction()
-            .setCustomAnimations(com.google.android.material.R.anim.design_bottom_sheet_slide_in,
-                com.google.android.material.R.anim.design_bottom_sheet_slide_out)
-            .replace(R.id.content, fragment, fragment.javaClass.simpleName)
-            .commit()
+    private fun replaceFragment(fragment: Fragment){
+    if(fragment !=null){
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.fragment_container, fragment)
+        transaction.commit()
+    }
     }
 }
+

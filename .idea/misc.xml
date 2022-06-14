@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe/app/src/main/res/layout/activity_login.xml" value="0.175" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe/app/src/main/res/layout/activity_register.xml" value="0.175" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/bg2_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/bg3_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/bg_detail_suhu.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/bg_homedashboard.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1945" />
@@ -15,13 +18,21 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/drawable/ic_ph_meter.xml" value="0.1945" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_login2.xml" value="0.25" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_notifikasi.xml" value="0.1859375" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/activity_splashscreen.xml" value="0.22" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/card_layout.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_details.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_grafik.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_notif.xml" value="0.2" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_notification.xml" value="0.175" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_second.xml" value="0.1859375" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_statistic.xml" value="0.175" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_statistic.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_statistic2.xml" value="0.1859375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/layout/fragment_utama.xml" value="0.2" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/androidcabe2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
       </map>
     </option>
